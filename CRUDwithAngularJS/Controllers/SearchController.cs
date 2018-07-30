@@ -11,6 +11,8 @@ namespace CRUDwithAngularJS.Controllers
         // GET: Search
         public ActionResult Index()
         {
+            string filter = "country=Pakistan";
+
             return View();
         }
 
